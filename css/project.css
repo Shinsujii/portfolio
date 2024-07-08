@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+body {
+	font-family: 'Lucida Console','Noto Sans KR','DungGeunMo';
+	font-size: 14px;
+	line-height: 1.2;
+	color: #ffffff;
+	line-height: 20px;
+	background-color: #000;
+	cursor: url(../images/basic.png), auto;
+}
+a:hover {
+    cursor: url(../images/hand.png), auto;
+}
+.logo{
+	width: 3em;
+}
+header{
+    padding: 20px;
+}
+table{
+    width: 60%;
+    border-collapse: collapse;
+    margin: auto;
+    margin-right: 20px;
+}
+th, td{
+    padding: 5px 60px;
+}
+th{
+    text-align: left;
+    color: #008ACF;
+    font-size: 16px;
+}
+
+.pic ul{
+    display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1em;
+}
+.pic ul img{
+    width: 80%;
+}
+.pic a{
+    display: block;
+}
+.ri5{
+    text-align: center;
+    margin-top: 1em;
+}
+.ri5 img{
+    width: 83%;
+}
+
+
+/* 999px ~ */
+@media (max-width:1200px) {
+	table, tbody, tr, th, td{
+        display: block;
+        width: 90%;
+    }
+    .pic ul img{
+        width: 100%;
+    }
+    .ri5 img{
+        width: 100%;
+    }
+    .ri5{
+        margin-top: 0;
+    }
+    .pic ul{
+        margin-top: 0;
+    }
+}
